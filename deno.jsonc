@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "jsx": "react-jsx",
+        "jsxImportSource": "https://esm.sh/preact@10.11.0"
+    },
+    "fmt": {
+        "options": {
+            "indentWidth": 4,
+            "lineWidth": 80,
+            "semiColons": false,
+            "singleQuote": false,
+            "useTabs": true
+        }
+    },
+    "imports": {
+        "hono": "https://deno.land/x/hono@v3.1.6/mod.ts",
+        "preact-render-to-string": "https://esm.sh/preact-render-to-string@6.0.2"
+    }
+}
